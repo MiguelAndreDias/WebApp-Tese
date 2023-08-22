@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  nav {
+    width: 340px;
+    flex-shrink: 0;
+  }
+
+  section {
+    padding: 20px;
+    flex-grow: 1;
+  }
+}

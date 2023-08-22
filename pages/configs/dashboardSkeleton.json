@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Dashboard"
+    },
+    {
+      "name": "CKM Repository",
+      "subList": [
+        {
+          "name": "Local",
+          "subList": [
+            {
+              "name": "Archetypes",
+              "subList": null,
+              "data": [
+                ["Cluster", "local/archetypes/cluster"],
+                ["Composition", "local/archetypes/composition/"],
+                ["Demographic", "local/archetypes/demographic/"],
+                ["Section", "local/templates/section/"],
+                ["Entry/Action", "local/archetypes/entry/action/"],
+                ["Entry/Admin Entry", "local/archetypes/entry/admin_entry/"],
+                ["Entry/Evaluation", "local/archetypes/entry/evaluation/"],
+                ["Entry/Instruction", "local/archetypes/entry/instruction/"],
+                ["Entry/Observation", "local/archetypes/entry/observation/"]
+              ]
+            },
+            {
+              "name": "Templates",
+              "subList": null,
+              "data": [
+                ["Cluster", "local/templates/cluster"],
+                ["Composition", "local/templates/composition/"],
+                ["Section", "local/templates/section/"],
+                ["Entry/Evaluation", "local/archetypes/entry/evaluation/"],
+                ["Entry/Observation", "local/archetypes/entry/observation/"]
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remote",
+          "data": [
+            ["no.nasjonalikt/archetypes/cluster/", "/remote/no.nasjonalikt/archetypes/cluster/"],
+            ["no.nasjonalikt/archetypes/entry/observation/", "/remote/no.nasjonalikt/archetypes/entry/observation/"],
+            ["org.highmed/archetypes/cluster/", "/remote/org.highmed/archetypes/cluster/"],
+            ["uk.org.clinicalmodels/archetypes/cluster/", "/remote/uk.org.clinicalmodels/archetypes/cluster/"],
+            ["uk.org.clinicalmodels/archetypes/entry/evaluation/", "/remote/uk.org.clinicalmodels/archetypes/entry/evaluation/"],
+            ["uk.org.clinicalmodels/archetypes/entry/observation/", "/remote/uk.org.clinicalmodels/archetypes/entry/observation/"]
+          ]
+        }
+      ]
+    }]

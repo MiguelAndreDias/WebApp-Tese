@@ -1,0 +1,24 @@
+{
+  "name": "tese",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "encoding": "^0.1.13",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.5",
+    "next": "^13.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-json-view": "^1.21.3",
+    "rsuite": "^5.23.0",
+    "sass": "^1.56.1",
+    "sync-fetch": "^0.4.2",
+    "xml2js": "^0.4.23"
+  }
+}
